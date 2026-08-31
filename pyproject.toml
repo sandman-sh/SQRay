@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sqray"
+version = "1.0.0"
+description = "High-Performance, Zero-Dependency Terminal SQLite Deep-Inspection & B-Tree Visualizer"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = []
+# Zero third-party runtime dependencies!
+
+[project.urls]
+Homepage = "https://github.com/sandman-sh/SQRay"
+Repository = "https://github.com/sandman-sh/SQRay.git"
+Issues = "https://github.com/sandman-sh/SQRay/issues"
+
+[project.scripts]
+sqray = "sqray:main"

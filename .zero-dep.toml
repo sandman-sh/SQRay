@@ -1,0 +1,7 @@
+track = "D"
+name = "sqray"
+pitch = "High-performance zero-dependency terminal SQLite deep-inspection, B-tree visualizer, and WAL forensics engine."
+bonus = ["Single File", "Package Killer", "STDLIB Log"]
+language = "Python"
+entrypoint = "sqray.py"
+test_command = "python -m unittest test_sqray.py -v"

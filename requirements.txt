@@ -1,0 +1,5 @@
+# Zero-Dependency 2026 Manifest
+# ---------------------------------------------
+# This file is intentionally empty.
+# SQRay has ZERO runtime third-party dependencies.
+# Requires only standard Python 3.7+ (sys, os, struct, typing, dataclasses, enum, math, io).
